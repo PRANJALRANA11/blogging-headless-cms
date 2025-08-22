@@ -14,18 +14,18 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "^4.24.0",
-    "@strapi/plugin-users-permissions": "^4.24.0",
-    "@strapi/strapi": "^4.24.0",
-    "better-sqlite3": "^9.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-router-dom": "^5.3.4",
-    "styled-components": "^5.3.11"
+    "@strapi/plugin-i18n": "^5.3.0",
+    "@strapi/plugin-users-permissions": "^5.3.0",
+    "@strapi/strapi": "^5.3.0",
+    "better-sqlite3": "^9.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.1",
+    "styled-components": "^6.1.14"
   },
   "engines": {
-    "node": ">=12.x.x <=19.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=18.0.0 <=22.x",
+    "npm": ">=9.0.0"
   },
   "strapi": {
     "uuid": "dbcfb165-71df-4d58-875a-347df684deb6"
