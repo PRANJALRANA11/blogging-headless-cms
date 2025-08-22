@@ -1,12 +1,16 @@
 {
   "name": "coders-blog-api",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
   "scripts": {
+    "build": "strapi build",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -19,15 +23,11 @@
     "react-router-dom": "^5.3.4",
     "styled-components": "^5.3.11"
   },
-  "author": {
-    "name": "A Strapi developer"
+  "engines": {
+    "node": ">=12.x.x <=19.x.x",
+    "npm": ">=6.0.0"
   },
   "strapi": {
     "uuid": "dbcfb165-71df-4d58-875a-347df684deb6"
-  },
-  "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  }
 }
